@@ -204,6 +204,7 @@ class GeografyGame:
         self.SuaraAntiGanggu2.start()
 
     def HilangSuara(self):
+        pygame.mixer.init()
         pygame.mixer.music.stop() 
 
            
