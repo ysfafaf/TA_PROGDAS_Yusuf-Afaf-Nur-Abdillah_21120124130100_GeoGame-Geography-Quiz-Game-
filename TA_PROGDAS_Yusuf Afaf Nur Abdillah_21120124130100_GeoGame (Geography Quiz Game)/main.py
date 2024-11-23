@@ -337,7 +337,7 @@ class GeografyGame:
 
 
     def CekJawabanBendera(self):
-        
+        self.root.bind('<Return>', lambda event: self.CekJawabanBendera()) 
         user_answer = self.AnswerEntry.get().strip().lower()
 
         
