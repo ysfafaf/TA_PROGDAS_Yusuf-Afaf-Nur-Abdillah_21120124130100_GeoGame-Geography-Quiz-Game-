@@ -188,10 +188,9 @@ class GeografyGame:
                                        )
         self.ComingSoon.place(x=550, y=500)
 
-    def TombolExit(self):   
-        self.HilangSuara()  
+    def TombolExit(self):     
         self.root.quit()
-        
+        self.HilangSuara()
 
     def SuaraBack (self):
         pygame.mixer.init()
