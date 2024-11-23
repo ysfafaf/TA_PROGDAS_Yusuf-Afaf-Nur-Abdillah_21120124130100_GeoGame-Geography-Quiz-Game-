@@ -263,7 +263,7 @@ class GeografyGame:
                                            font=("Comic Sans MS", 16), 
                                            corner_radius=20)
         self.SubmitButton.place(x=(self.LebarLayar / 2) - 210,y=(self.TinggiLayar / 2) + 180)
-
+        self.root.bind('<Return>', lambda event: self.CekJawabanBendera()) 
         
         self.ScoreLabel = ctk.CTkLabel(self.root, 
                                         text=f"Score : {self.score}", 
